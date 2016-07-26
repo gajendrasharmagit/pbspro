@@ -383,7 +383,11 @@ extern int closedir(DIR *dir);
 
 /* pid related stuff */
 #define WNOHANG 1
+#ifndef LINKS_PYTHON
 #define pid_t	int
+#else
+#include "python.h"
+#endif
 #define WIFEXITED(s)		(s >= 0)
 #define WEXITSTATUS(s)		(s)
 #define BASE_SIGEXIT_CODE      256

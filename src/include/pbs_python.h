@@ -138,7 +138,11 @@ typedef struct	hook_input_param {
 	char		*env;
 	pbs_list_head	*jobs_list;
 	pbs_list_head	*vns_list;
+#ifndef WIN32
 	pid_t		pid;
+#else
+	int		pid;
+#endif
 } hook_input_param_t;
 
 /**

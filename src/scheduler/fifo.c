@@ -198,8 +198,10 @@ schedinit(int argc, char *argv[])
 	set_ical_zoneinfo(zone_dir);
 
 #ifdef PYTHON
+
 	Py_NoSiteFlag = 1;
 	Py_FrozenFlag = 1;
+
 	Py_Initialize();
 
 	path = PySys_GetObject("path");

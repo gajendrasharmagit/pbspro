@@ -169,7 +169,11 @@ enum PBS_Daemon_Protect {
 	PBS_DAEMON_PROTECT_OFF,
 	PBS_DAEMON_PROTECT_ON
 };
+#ifdef WIN32
+void daemon_protect(int, enum PBS_Daemon_Protect);
+#else
 void daemon_protect(pid_t, enum PBS_Daemon_Protect);
+#endif
 
 #ifdef	__cplusplus
 }
