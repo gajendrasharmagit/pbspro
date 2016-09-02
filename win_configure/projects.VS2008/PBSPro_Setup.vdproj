@@ -118,6 +118,18 @@
         "Entry"
         {
         "MsmKey" = "8:_1A16F365C04E4AE28CBD47252CDFE6FC"
+        "OwnerKey" = "8:_F191392E30AC4A099AA854EF48D3CA15"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1A16F365C04E4AE28CBD47252CDFE6FC"
+        "OwnerKey" = "8:_5861608D2A67483D9D81AA7474120447"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1A16F365C04E4AE28CBD47252CDFE6FC"
         "OwnerKey" = "8:_29B53C0C96E148498B639A28EA5E2948"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -556,6 +568,12 @@
         "Entry"
         {
         "MsmKey" = "8:_582CE4DB83AF7A3ED302F47A7E3D2FC6"
+        "OwnerKey" = "8:_F191392E30AC4A099AA854EF48D3CA15"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_582CE4DB83AF7A3ED302F47A7E3D2FC6"
         "OwnerKey" = "8:_0C1944B99CA347AD9AD19FC2BF90C49E"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -880,6 +898,18 @@
         "Entry"
         {
         "MsmKey" = "8:_BA3D9E5B0C85801E7B120EAFC9CB090D"
+        "OwnerKey" = "8:_F191392E30AC4A099AA854EF48D3CA15"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BA3D9E5B0C85801E7B120EAFC9CB090D"
+        "OwnerKey" = "8:_5861608D2A67483D9D81AA7474120447"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BA3D9E5B0C85801E7B120EAFC9CB090D"
         "OwnerKey" = "8:_0F3912D1452348D78E83986058F8F701"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1095,6 +1125,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DCB5D3C3CDB86CB70954929AB886C3CE"
+        "OwnerKey" = "8:_F191392E30AC4A099AA854EF48D3CA15"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DEFBA70684013CB692983A664C0D9A60"
         "OwnerKey" = "8:_C890C8344E5F4609A0CE8043F30E4720"
         "MsmSig" = "8:_UNDEFINED"
@@ -1109,6 +1145,18 @@
         {
         "MsmKey" = "8:_E6ABB7A5A35DC333AD58E7A45FECA1E5"
         "OwnerKey" = "8:_90753E76AA7C449993F2B8DC65893450"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E6ABB7A5A35DC333AD58E7A45FECA1E5"
+        "OwnerKey" = "8:_F191392E30AC4A099AA854EF48D3CA15"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E6ABB7A5A35DC333AD58E7A45FECA1E5"
+        "OwnerKey" = "8:_5861608D2A67483D9D81AA7474120447"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1507,7 +1555,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:..\\Setup1\\Release\\PBSPro.msi"
+        "OutputFilename" = "8:..\\PBSPro\\Release\\PBSPro.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -1732,6 +1780,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCB5D3C3CDB86CB70954929AB886C3CE"
+            {
+            "SourcePath" = "8:tk83.dll"
+            "TargetName" = "8:tk83.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_0B1E9ED34FC745EC8D398C408594DAA1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DEFBA70684013CB692983A664C0D9A60"
             {
             "SourcePath" = "8:PSAPI.DLL"
@@ -1804,6 +1872,17 @@
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "Property" = "8:_9FD244B79BA240D6B0CCD1FF91E5FA7A"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_3684A367FD3240F4960644592AED69C5"
+                            {
+                            "Name" = "8:etc"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_CFA4802A0AF64028811740CD1EA03317"
                                 "Folders"
                                 {
                                 }
@@ -1927,20 +2006,20 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PBSPro"
-        "ProductCode" = "8:{A679DB46-5375-4571-8F60-FBE5A4A9AC96}"
-        "PackageCode" = "8:{B169AB80-292C-468B-8674-C7BCCAC886B3}"
+        "ProductCode" = "8:{6AFFAB04-088A-4965-8F05-95D74B63941A}"
+        "PackageCode" = "8:{9CDCCBD8-D9CA-4437-8AB9-B05192987813}"
         "UpgradeCode" = "8:{C85A0EF8-0D40-4510-A532-7FEB5A4AA0E8}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:15.0"
         "Manufacturer" = "8:PBSPro"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:PBSPro"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:PBSPro"
+        "ARPCONTACT" = "8:"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"

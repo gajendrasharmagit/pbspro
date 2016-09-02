@@ -6,4 +6,9 @@ for /d /r "C:\Program Files\Tcl\bin" %%a in (*.dll) do (
 
 xcopy "c:\program files\Tcl\lib\tcl8.3" "C:\Program Files (x86)\PBS Pro\exec\lib\tcl8.3" /O /X /E /H /K /y
 
-xcopy "c:\program files\Tcl\lib\tcl8.3" "C:\Program Files (x86)\PBS Pro\exec\lib\tk8.3" /O /X /E /H /K /y
+xcopy "c:\program files\Tcl\lib\tk8.3" "C:\Program Files (x86)\PBS Pro\exec\lib\tk8.3" /O /X /E /H /K /y
+
+for /d /r "src\scheduler" %%a in (pbs_holidays*) do (
+    copy "%%~fa" "C:\Program Files (x86)\PBS Pro\exec\etc"
+)
+
