@@ -509,6 +509,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scheduler", "projects.VS200
 		{1CE3EDF8-7001-4756-A85B-DF7D0BFF4C52} = {1CE3EDF8-7001-4756-A85B-DF7D0BFF4C52}
 	EndProjectSection
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PBSPro", "projects.VS2008\PBSPro_Setup.vdproj", "{841629EA-9154-4F99-B096-FC26CB8AFF65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -810,6 +812,8 @@ Global
 		{49307715-24A5-47FF-AE7A-A3463E997F39}.Debug|Win32.Build.0 = Debug|Win32
 		{49307715-24A5-47FF-AE7A-A3463E997F39}.Release|Win32.ActiveCfg = Release|Win32
 		{49307715-24A5-47FF-AE7A-A3463E997F39}.Release|Win32.Build.0 = Release|Win32
+		{841629EA-9154-4F99-B096-FC26CB8AFF65}.Debug|Win32.ActiveCfg = Debug
+		{841629EA-9154-4F99-B096-FC26CB8AFF65}.Release|Win32.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
