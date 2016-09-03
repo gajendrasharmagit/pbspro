@@ -1533,6 +1533,17 @@
                                 {
                                 }
                             }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_92F7799531994691816AC02DB0D30253"
+                            {
+                            "Name" = "8:python_x64"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_ECBA8C452078452BA899099C57689596"
+                                "Folders"
+                                {
+                                }
+                            }
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_9966F5DC378F44C6BC40DF4C53BCD94E"
                             {
                             "Name" = "8:sbin"
@@ -1599,6 +1610,17 @@
                     "Property" = "8:_67BF855BC81E4752A4F4814B36646ABE"
                         "Folders"
                         {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_08485D62F898414E84EBB4E44B6F27AC"
+                            {
+                            "Name" = "8:server_logs"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_4F8FADD419FA4877955AD9DFEF219732"
+                                "Folders"
+                                {
+                                }
+                            }
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_4FD2D93066A3439AACC281F6C5540F27"
                             {
                             "Name" = "8:comm_logs"
@@ -1665,6 +1687,17 @@
                                 {
                                 }
                             }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_E2D0A6AE8AC64063B76C36A4D566D480"
+                            {
+                            "Name" = "8:sched_logs"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_FC2B12034FC54F4882534473C5AD3AB6"
+                                "Folders"
+                                {
+                                }
+                            }
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_F2BF7975886049D0A48CBAA1B8B43100"
                             {
                             "Name" = "8:mom_logs"
@@ -1719,7 +1752,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PBSPro"
         "ProductCode" = "8:{6AFFAB04-088A-4965-8F05-95D74B63941A}"
-        "PackageCode" = "8:{20497BFE-8D2A-4734-87D8-C51FE436E5EC}"
+        "PackageCode" = "8:{2BDF922F-0208-4FD1-BCDC-5C20E1C94C43}"
         "UpgradeCode" = "8:{C85A0EF8-0D40-4510-A532-7FEB5A4AA0E8}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
